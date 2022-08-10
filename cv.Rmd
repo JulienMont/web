@@ -1,0 +1,32 @@
+---
+title: "cv"
+output:
+  html_document:
+    toc: False
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## Resume
+
+Julien Montavont (Ph.D, Strasbourg University) is an Assistant Professor at the University of Strasbourg since 2007 and a member of the Network research group at ICube laboratory (UMR CNRS 7357). His research interest focuses on designing communication protocols for the Internet of Things (IoT) and Low-Power Wide Area Networks (LPWAN). He also has a strong background on mobility management over IP networks. He is the co-author of more than 30 international journal and conference articles. He regularly serves as TPC member or external reviewer for international journals and conferences (Elsevier Ad Hoc Networks, Elsevier Computer Communications, etc.). Recently, he served as the TPC co-chair for Wireless Days 2016 (track co-chair) and AdHoc-Now 2018, and was a member of the scientific and organization program committees of a french summer school dedicated to computer networks (rescom 2016).
+
+## Education/Experience
+
+**Since Sept. 2007**  
+Assistant professor in Computer Science at University of Strasbourg
+  
+**2008 (3 months)**  
+Invited Researcher at Ecole Polytechnique de Montréal (Canada) by Prof. Samuel Pierre
+
+**2006 - 2004**  
+Ph.D. Student in Computer Science at the LSIIT laboratory, Strasbourg France  
+Funding: Orange Labs / France Télécom
+
+**2004 - 2002**  
+Master Degree in Computer Science at Louis Pasteur University, Strasbourg France
+
+**2002 - 1999**  
+Bachelor Degree in Computer Science at Louis Pasteur University, Strasbourg France 

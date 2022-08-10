@@ -1,0 +1,59 @@
+---
+title: "Supervision"
+output:
+  html_document:
+    toc: False
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+### PhD Students
+
+- **Amaury Bruniaux** (2020 - ...)  
+Co-supervision with Nicolas Montavont, Georgios Papadopoulos and Thomas Noël  
+Ph.D. Thesis: SDN approach to support ubiquitous IoT technologies
+
+- **Farzad Veisi** (2020 - ...)  
+Co-supervision with Fabrice Théoleyre  
+Ph.D. Thesis: Software Defined Industrial Internet of Things  
+Funding: MESR grant
+
+- **Sebastian Lucas Sampayo** (2018 - 2021)  
+Co-supervision with Thomas Noël  
+Ph.D. Thesis: Polymorphic network protocol suite in heterogeneous wake-up IoT networks  
+Funding: ANR Infra - WakeUP project
+
+- **Cosmin Cobârzan** (2012 - 2015)  
+Co-supervision with Thomas Noël  
+Ph.D. Thesis: Internet of Highly Mobile Things  
+Funding: grant from Institut Mines-Telecom - Future et Rupture program
+
+- **Damien Roth** (2009 - 2012)  
+Co-supervision with Thomas Noël  
+Ph.D. Thesis: Mobility management in Wireless Sensor Networks  
+Funding: MESR grant
+
+- **Romain Kuntz** (2007 - 2010)  
+Co-supervision with Thomas Noël  
+Ph.D. Thesis: Medium Access Control Facing the Dynamics of Wireless Sensor Networks
+
+### Master 2 Internship
+
+- **Simon Raul** (2022)  
+Co-supervision with Cristel Pelsser and Thomas Noël  
+Subject: Anomaly detection in Internet of Things  
+Funding:
+
+- **Brandon Foubert** (2018)  
+Subject: Cooperation between multiple RPL networks  
+Funding: Grant from University
+
+- **Pierre Neumann** (2016)  
+Subject: Heterogeneous Internet of Things  
+Funding: LoRa CROFT project
+
+- **Quang Duy Nguyen** (2015)  
+Subject: Multihoming in the Internet of Things  
+Funding: scholarship grant from IDEX Mobility Program - Master Internship of University of Strasbourg
