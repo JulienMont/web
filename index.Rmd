@@ -5,36 +5,26 @@ output:
     toc: FALSE
 ---
 
+{r chunkname, echo=FALSE, out.width= "65%", out.extra='style="float:right; padding:10px"'}
+![Caption for the picture.](/path/to/image.png)
 
+**Associate Professor in Computer Science**
 
-
-**Welcome to my website!**
-
-Associate Professor in Computer Science
-Organization: ICube / University of Strasbourg
-Group: Network Research Group
+Organization: ICube (UMR CNRS 7357) / University of Strasbourg  
+Group: Network Research Group  
 Address: Building B, Office 272,
 Pole API, 300 Boulevard Sebastien Brant,
-67412 Illkirch, FRANCE
-Phone:+33 368.854.584
+67412 Illkirch, France  
 Email: montavont [ at ] unistra (dot) fr
 
-# Research interest
+## Research interest
 
 I am interested in developing new MAC and routing protocols for the Internet of Things (IoT) and Low-Power Wide Area Networks (LPWAN) which raises new constraints due to the limited computational power, memory and energy of devices that compose the network. I am particularly focusing on mobility support in IoT and LPWAN. Formerly, I was working on mobility management over IPv6 networks, from single host mobility to entire network mobility. I had studied all kind of solutions aiming to provide seamless terminal mobility over a wireless environment.
 
-# Research topics
+## Research topics
 
 - MAC and routing protocols for IoT and LPWAN
 - Mobility management in IoT and LPWAN
 - Multihoming in IoT and LPWAN
 - Mobile IPv6 and its extensions (NEMO BS, etc.)
 - Network experimentations 
-
-This website is a collection of regular (R)Markdown document, so you can use all the usual formatting.
-
-If you are new to R Markdown, you can learn more about it [on the R Markdown website](https://rmarkdown.rstudio.com/). 
-
-I also have a discussion of R Markdown and reproducibility [on one of my course pages](https://andreashandel.github.io/MADAcourse/1e_ToolsforReproducibility.html). You'll find additional links to potentially useful R Markdown (and Github) resources there.
-
-

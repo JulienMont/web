@@ -3,21 +3,19 @@ title: "Julien Montavont"
 type: inverse
 left:
   - text: "Short CV"
-    menu:
-      - text: ""
-        href: ./cv.html
+    href: ./cv.html
   - text: "Publications"
-    menu:
-      - text: "Learn more about me"
-        href: ./publications.html
+    href: ./publications.html
+  - text: "Supervision"
+    href: ./supervision.html
   - text: "Project"
     menu:
        - text: "Project part 1"
          href: ./project1.html
        - text: "Project part 2"
          href: ./project2.html
-  - text: "Contact"
-    href: ./contact.html
+  - text: "Lectures"
+    href: ./lectures.html
 right:
   - icon: fa-github fa-lg
     href: https://github.com/githubusername/mywebsite

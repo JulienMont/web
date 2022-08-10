@@ -11,7 +11,7 @@
 
 
 
-<title>Publications</title>
+<title>publications.knit</title>
 
 <script src="site_libs/header-attrs-2.14/header-attrs.js"></script>
 <script src="site_libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
@@ -29,9 +29,6 @@
        h6 {font-size: 12px;}
        code {color: inherit; background-color: rgba(0, 0, 0, 0.04);}
        pre:not([class]) { background-color: white }</style>
-<script src="site_libs/jqueryui-1.11.4/jquery-ui.min.js"></script>
-<link href="site_libs/tocify-1.9.1/jquery.tocify.css" rel="stylesheet" />
-<script src="site_libs/tocify-1.9.1/jquery.tocify.js"></script>
 <script src="site_libs/navigation-1.1/tabsets.js"></script>
 <link href="site_libs/font-awesome-5.1.0/css/all.css" rel="stylesheet" />
 <link href="site_libs/font-awesome-5.1.0/css/v4-shims.css" rel="stylesheet" />
@@ -47,100 +44,6 @@
 
 
 
-<style type="text/css">
-  code {
-    white-space: pre;
-  }
-  .sourceCode {
-    overflow: visible;
-  }
-</style>
-<style type="text/css" data-origin="pandoc">
-pre > code.sourceCode { white-space: pre; position: relative; }
-pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
-pre > code.sourceCode > span:empty { height: 1.2em; }
-.sourceCode { overflow: visible; }
-code.sourceCode > span { color: inherit; text-decoration: inherit; }
-div.sourceCode { margin: 1em 0; }
-pre.sourceCode { margin: 0; }
-@media screen {
-div.sourceCode { overflow: auto; }
-}
-@media print {
-pre > code.sourceCode { white-space: pre-wrap; }
-pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
-}
-pre.numberSource code
-  { counter-reset: source-line 0; }
-pre.numberSource code > span
-  { position: relative; left: -4em; counter-increment: source-line; }
-pre.numberSource code > span > a:first-child::before
-  { content: counter(source-line);
-    position: relative; left: -1em; text-align: right; vertical-align: baseline;
-    border: none; display: inline-block;
-    -webkit-touch-callout: none; -webkit-user-select: none;
-    -khtml-user-select: none; -moz-user-select: none;
-    -ms-user-select: none; user-select: none;
-    padding: 0 4px; width: 4em;
-  }
-pre.numberSource { margin-left: 3em;  padding-left: 4px; }
-div.sourceCode
-  { color: #cccccc; background-color: #303030; }
-@media screen {
-pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
-}
-code span.al { color: #ffcfaf; } /* Alert */
-code span.an { color: #7f9f7f; font-weight: bold; } /* Annotation */
-code span.at { } /* Attribute */
-code span.bn { color: #dca3a3; } /* BaseN */
-code span.bu { } /* BuiltIn */
-code span.cf { color: #f0dfaf; } /* ControlFlow */
-code span.ch { color: #dca3a3; } /* Char */
-code span.cn { color: #dca3a3; font-weight: bold; } /* Constant */
-code span.co { color: #7f9f7f; } /* Comment */
-code span.cv { color: #7f9f7f; font-weight: bold; } /* CommentVar */
-code span.do { color: #7f9f7f; } /* Documentation */
-code span.dt { color: #dfdfbf; } /* DataType */
-code span.dv { color: #dcdccc; } /* DecVal */
-code span.er { color: #c3bf9f; } /* Error */
-code span.ex { } /* Extension */
-code span.fl { color: #c0bed1; } /* Float */
-code span.fu { color: #efef8f; } /* Function */
-code span.im { } /* Import */
-code span.in { color: #7f9f7f; font-weight: bold; } /* Information */
-code span.kw { color: #f0dfaf; } /* Keyword */
-code span.op { color: #f0efd0; } /* Operator */
-code span.ot { color: #efef8f; } /* Other */
-code span.pp { color: #ffcfaf; font-weight: bold; } /* Preprocessor */
-code span.sc { color: #dca3a3; } /* SpecialChar */
-code span.ss { color: #cc9393; } /* SpecialString */
-code span.st { color: #cc9393; } /* String */
-code span.va { } /* Variable */
-code span.vs { color: #cc9393; } /* VerbatimString */
-code span.wa { color: #7f9f7f; font-weight: bold; } /* Warning */
-
-</style>
-<script>
-// apply pandoc div.sourceCode style to pre.sourceCode instead
-(function() {
-  var sheets = document.styleSheets;
-  for (var i = 0; i < sheets.length; i++) {
-    if (sheets[i].ownerNode.dataset["origin"] !== "pandoc") continue;
-    try { var rules = sheets[i].cssRules; } catch (e) { continue; }
-    for (var j = 0; j < rules.length; j++) {
-      var rule = rules[j];
-      // check if there is a div.sourceCode rule
-      if (rule.type !== rule.STYLE_RULE || rule.selectorText !== "div.sourceCode") continue;
-      var style = rule.style.cssText;
-      // check if color or background-color is set
-      if (rule.style.color === '' && rule.style.backgroundColor === '') continue;
-      // replace div.sourceCode by a pre.sourceCode rule
-      sheets[i].deleteRule(j);
-      sheets[i].insertRule('pre.sourceCode{' + style + '}', j);
-    }
-  }
-})();
-</script>
 
 
 
@@ -309,75 +212,6 @@ $(document).ready(function () {
 
 
 
-<style type="text/css">
-
-#TOC {
-  margin: 25px 0px 20px 0px;
-}
-@media (max-width: 768px) {
-#TOC {
-  position: relative;
-  width: 100%;
-}
-}
-
-@media print {
-.toc-content {
-  /* see https://github.com/w3c/csswg-drafts/issues/4434 */
-  float: right;
-}
-}
-
-.toc-content {
-  padding-left: 30px;
-  padding-right: 40px;
-}
-
-div.main-container {
-  max-width: 1200px;
-}
-
-div.tocify {
-  width: 20%;
-  max-width: 260px;
-  max-height: 85%;
-}
-
-@media (min-width: 768px) and (max-width: 991px) {
-  div.tocify {
-    width: 25%;
-  }
-}
-
-@media (max-width: 767px) {
-  div.tocify {
-    width: 100%;
-    max-width: none;
-  }
-}
-
-.tocify ul, .tocify li {
-  line-height: 20px;
-}
-
-.tocify-subheader .tocify-item {
-  font-size: 0.90em;
-}
-
-.tocify .list-group-item {
-  border-radius: 0px;
-}
-
-.tocify-subheader {
-  display: inline;
-}
-.tocify-subheader .tocify-item {
-  font-size: 0.95em;
-}
-
-</style>
-
-
 
 </head>
 
@@ -385,16 +219,6 @@ div.tocify {
 
 
 <div class="container-fluid main-container">
-
-
-<!-- setup 3col/9col grid for toc_float and main content  -->
-<div class="row">
-<div class="col-xs-12 col-sm-4 col-md-3">
-<div id="TOC" class="tocify">
-</div>
-</div>
-
-<div class="toc-content col-xs-12 col-sm-8 col-md-9">
 
 
 
@@ -411,29 +235,14 @@ div.tocify {
     </div>
     <div id="navbar" class="navbar-collapse collapse">
       <ul class="nav navbar-nav">
-        <li class="dropdown">
-  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-    Short CV
-     
-    <span class="caret"></span>
-  </a>
-  <ul class="dropdown-menu" role="menu">
-    <li>
-      <a href="./cv.html"></a>
-    </li>
-  </ul>
+        <li>
+  <a href="./cv.html">Short CV</a>
 </li>
-<li class="dropdown">
-  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-    Publications
-     
-    <span class="caret"></span>
-  </a>
-  <ul class="dropdown-menu" role="menu">
-    <li>
-      <a href="./publications.html">Learn more about me</a>
-    </li>
-  </ul>
+<li>
+  <a href="./publications.html">Publications</a>
+</li>
+<li>
+  <a href="./supervision.html">Supervision</a>
 </li>
 <li class="dropdown">
   <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
@@ -451,7 +260,7 @@ div.tocify {
   </ul>
 </li>
 <li>
-  <a href="./contact.html">Contact</a>
+  <a href="./lectures.html">Lectures</a>
 </li>
       </ul>
       <ul class="nav navbar-nav navbar-right">
@@ -470,72 +279,349 @@ div.tocify {
 
 
 
-<h1 class="title toc-ignore">Publications</h1>
 
 </div>
 
 
-<div id="refereed-international-journals-9" class="section level2">
-<h2>Refereed International Journals (9)</h2>
+<div id="publications"
+class="section level1 tabset tabset-fade tabset-pills">
+<h1 class="tabset tabset-fade tabset-pills">Publications</h1>
+<div id="sort-by-year" class="section level2">
+<h2>Sort by year</h2>
+<div id="section" class="section level3">
+<h3>2022</h3>
+<ul>
+<li><strong>Towards a Fully Programmable Internet of Things</strong>, A.
+Bruniaux, J. Montavont, T. Noël, G. Papadopoulos and N. Montavont,
+accepted for publication in proceedings of the <em>IEEE International
+Conference on Wireless and Mobile Computing, Networking and
+Communications (WiMob)</em>, Thessaloniki, Greece, October 2022</li>
+<li><strong>SDN-TSCH: Enabling Software Defined Networking for Scheduled
+Wireless Networks with Traffic Isolation</strong>, F. Veysi, J.
+Montavont and F. Théoleyre, accepted for publication in proceedings of
+the <em>IEEE Symposium on Computers and Communications (ISCC)</em>,
+Rhodes Island, Greece, June 2022</li>
+<li><strong>The revenge of asynchronous protocols: Wake-up Radio-based
+Multi-hop Multi-channel MAC protocol for WSN</strong>, N. El Hoda Djidi,
+S. Sampayo, J. Montavont, A. Courtay, M. Gautier, O. Berder and T. Noël,
+in proceedings of the <em>IEEE Wireless Communications and Networking
+Conference (WCNC)</em>, Austin, TX, USA, April 2022</li>
+</ul>
+</div>
+<div id="section-1" class="section level3">
+<h3>2021</h3>
+<ul>
+<li><strong>REFLOOD: Reactive Routing Protocol for Wake-Up Radio in
+IoT</strong>, S. Sampayo, J. Montavont and T. Noël, in <em>Elsevier Ad
+Hoc Networks</em>, Volume 121, October 2021</li>
+</ul>
+</div>
+<div id="section-2" class="section level3">
+<h3>2020</h3>
+<ul>
+<li><strong>A Performance Study of the Behavior of the Wake-Up Radio in
+Real-World Noisy Environments</strong>, S. Sampayo, J. Montavont and T.
+Noël, in proceedings of the <em>Workshop on Wake-Up radio technologies
+for next generation wireless communications (AWAKE), in conjunction with
+EWSN</em>, Lyon France, February 2020</li>
+</ul>
+</div>
+<div id="section-3" class="section level3">
+<h3>2019</h3>
+<ul>
+<li><strong>eLoBaPS: Towards Energy Load Balancing with Wake-Up Radios
+for IoT</strong>, S. Sampayo, J. Montavont and T. Noël, in proceedings
+of the <em>International Conference on Ad-Hoc Networks and Wireless
+(AdHoc-Now)</em>, Luxembourg, October 2019</li>
+<li><strong>Sharing is Caring a Cooperation Scheme for RPL Network
+Resilience and Efficiency</strong>, B. Foubert and J. Montavont, in
+proceedings of the <em>IEEE International Symposium on Computer
+Communications (ISCC)</em>, Barcelona Spain, July 2019</li>
+<li><strong>LoBaPS: Load Balancing Parent Selection for RPL Using
+Wake-Up Radios</strong>, S. Sampayo, J. Montavont and T. Noël, in
+proceedings of the <em>IEEE International Symposium on Computer
+Communications (ISCC)</em>, Barcelona Spain, July 2019</li>
+<li><strong>Selecting Parents with Wake-Up Radios for Load Balancing in
+RPL</strong>, S. Sampayo, J. Montavont et T. Noël, dans les actes du
+<em>colloque francophone sur la conception de protocoles, l’évaluation
+de performance et l’expérimentation des réseaux de communication
+(CoRes)</em>, Saint Laurent de la Cabrerisse, France, Juin 2019</li>
+</ul>
+</div>
+<div id="section-4" class="section level3">
+<h3>2018</h3>
+<ul>
+<li><strong>Is Wake-Up Radio the Ultimate Solution to the Latency-Energy
+Tradeoff in Multi-hop Wireless Sensor Networks?</strong> S. Sampayo, J.
+Montavont, F. Pregaldiny and T. Noël, in proceedings of the <em>IEEE
+International Conference on Wireless and Mobile Computing, Networking
+and Communications (WiMob)</em>, Limassol Cyprus, October 2018
+(acceptance rate: 28%)</li>
+</ul>
+</div>
+<div id="section-5" class="section level3">
+<h3>2016</h3>
+<ul>
+<li><strong>MT-RPL: a cross-layer approach for mobility support in
+RPL</strong>, C. Cobârzan, J. Montavont and T. Noël, in <em>EAI Endorsed
+Transactions on Internet of Things</em>, Volume 2, Issue 5, December
+2016</li>
+<li><strong>Indoor Deployment of Low-Power Wide Area Networks (LPWAN): a
+LoRaWAN case study</strong>, P. Neumann, J. Montavont and T. Noël, in
+proceedings of the <em>IEEE International Conference on Wireless and
+Mobile Computing, Networking and Communications (WiMob)</em>, New York
+USA, October 2016 (acceptance rate: 26.8%)</li>
+<li><strong>RPL Border Router Redundancy in the Internet of
+Things</strong>, Q-D. Nguyen, J. Montavont, N. Montavont and T. Noel, in
+proceedings of the <em>International Conference on Ad-Hoc Networks and
+Wireless (AdHoc-Now)</em>, Lille France, July 2016 (acceptance rate:
+37%)</li>
+</ul>
+</div>
+<div id="section-6" class="section level3">
+<h3>2015</h3>
+<ul>
+<li><strong>Integrating Mobility in RPL</strong>, C. Cobarzan, J.
+Montavont and T. Noel, in proceedings of the <em>European Conference on
+Wireless Sensor Networks (EWSN)</em>, Porto Portugal, February 2015
+(acceptance rate: 21.5%)</li>
+<li><strong>Theoretical Analysis of IPv6 Stateless Address
+Autoconfiguration in Low-power and Lossy Wireless Networks</strong>, J.
+Montavont, C. Cobarzan and T. Noel, in proceedings of the <em>IEEE RIVF
+International Conference on Computing and Communication Technologies
+(RIVF)</em>, Cantho Vietnam, January 2015 (acceptance rate: 42%)</li>
+</ul>
+</div>
+<div id="section-7" class="section level3">
+<h3>2014</h3>
+<ul>
+<li><strong>Analysis and Performance Evaluation of RPL under
+Mobility</strong>, C. Cobarzan, J. Montavont and T. Noel, in proceedings
+of the IEEE Symposium on Computers and Communications (ISCC), Madeira
+Portugal, June 2014 (acceptance rate: 46.4%)</li>
+<li><strong>Mobile IPv6 in Internet of Things: Analysis,
+Experimentations and Optimizations</strong>, J. Montavont, D. Roth and
+T. Noel, in <em>Elsevier Ad Hoc Networks Journal</em>, Volume 14,
+pp. 15-25, March 2014 (IF: 1.66)</li>
+<li><strong>Thorough Empirical Analysis of X-MAC over a Large Scale
+Internet of Things Testbed</strong>, J. Baudeaux, A. Gallais, J.
+Montavont, T. Noel, D. Roth and E. Valentin, in <em>IEEE Sensors
+Journal, Special Issue on Internet of Things (IoT): Architecture,
+Protocols and Services</em>, Volume 14, Issue 2, pp. 383-392, February
+2014 (IF: 1.889)</li>
+</ul>
+</div>
+<div id="section-8" class="section level3">
+<h3>2013</h3>
+<ul>
+<li><strong>Improving the Medium Access in Highly Mobile Wireless Sensor
+Networks</strong>, R. Kuntz, J. Montavont and T. Noel, in <em>Springer
+Journal of Telecommunication System, Special Issue on Recent Advance in
+Mobile Sensor Networks</em>, Volume 52, Issue 4, pp. 2437-2458, April
+2013 (IF: 0.822)</li>
+<li><strong>Multihoming in IPv6 Mobile Networks: Progress, Challenge and
+Solutions</strong>, R. Kuntz, J. Montavont and T. Noel, in <em>IEEE
+Communication Magazine</em>, Volume 51, Issue 1, pp. 128-135, January
+2013 (IF: 5.125)</li>
+</ul>
+</div>
+<div id="section-9" class="section level3">
+<h3>2012</h3>
+<ul>
+<li><strong>Performance Evaluation of Mobile IPv6 Over 6LoWPAN</strong>,
+D. Roth, J. Montavont and T. Noel, in proceedings of the <em>ACM
+International Symposium on Performance Evaluation of Wireless Ad Hoc,
+Sensor, and Ubiquitous Networks (PEWASUN)</em>, Paphos Cyprus Island,
+October 2012 (aceptance rate: 17%)</li>
+<li><strong>De l’Internet mobile à la mobilité dans l’Internet des
+objets</strong>, J. Montavont, A. Gallais et T. Noel, Article invité
+dans les actes des <em>journées francophones Mobilité et Ubiquité
+(Ubimob)</em>, Anglet France, June 2012</li>
+</ul>
+</div>
+<div id="section-10" class="section level3">
+<h3>2011</h3>
+<ul>
+<li><strong>An Improved Network Mobility Service for Intelligent
+Transportation Systems</strong>, R. Kuntz, J. Montavont, G. Schreiner,
+D. Binet, and T. Noel, in <em>Wiley InterScience Wireless Communications
+and Mobile Computing</em>, Volume 11, Issue 7, pp. 899-915, July 2011
+(IF: 0.922)</li>
+<li><strong>Overhearing for Congestion Avoidance in Wireless Sensor
+Networks</strong>, D. Roth, J. Montavont and T. Noël, in proceedings of
+the <em>International Conference on Ad Hoc and Wireless
+(ADHOC-NOW)</em>, Paderborn Germany, July 2011 (acceptance rate
+42%)</li>
+<li><strong>LIFT: Layer Independent Fault Tolerance Mechanism for
+Wireless Sensor Networks</strong>, J. Beaudaux, A. Gallais, J. Montavont
+and T. Noël, in proceedings of the IEEE <em>Vehicular Technology
+Conference (VTC-Spring)</em>, Budapest Hungary, May 2011 (acceptance
+rate 51%)</li>
+<li><strong>MOBINET: Mobility Management Across Different Wireless
+Sensor Networks</strong>, D. Roth, J. Montavont and T. Noël, in
+proceedings of the <em>IEEE Wireless Communications and Networking
+Conference (WCNC)</em>, Cancun Mexico, March 2011 (acceptance rate:
+48%)</li>
+</ul>
+</div>
+<div id="section-11" class="section level3">
+<h3>2010</h3>
+<ul>
+<li><strong>CASINO: Creating Alea with a Sensor-based Interactive
+Network</strong>, J. Beaudaux, A. Gallais, R. Kuntz, J. Montavont, T.
+Noël, D. Roth, F. Théoleyre and E. Valentin, demonstration abstract in
+proceedings of the <em>ACM Conference on Embedded Networked Sensor
+Systems (SenSys)</em>, Zurich Switzerland, November 2010</li>
+<li><strong>MOBINET : Gestion de la Mobilité à travers différents
+Réseaux de Capteurs Sans Fil</strong>, D. Roth, J. Montavont and T.
+Noël, dans les actes des <em>Rencontres Francophones sur les Aspects
+Algorithmiques de Télécommunications (Algotel)</em>, Côte d’Opale
+France, June 2010 (acceptance rate 57%)</li>
+</ul>
+</div>
+<div id="section-12" class="section level3">
+<h3>2008</h3>
+<ul>
+<li><strong>Implementation of an IPv6 Stack for NS-3</strong>, S.
+Vincent, J. Montavont, N. Montavont, in proceedings of the
+<em>International Workshop on NS-2 (WNS2), in conjunction with the
+International Conference on Performance Evaluation Methodologies and
+Tools (VALUETOOLS)</em>, Athens Greece, October 2008</li>
+<li><strong>Multiple Mobile Routers in NEMO: How Neighbor Discovery Can
+Assist Default Router Selection</strong>, R. Kuntz, J. Montavont, T.
+Noël, in proceedings of the <em>Annual IEEE International Symposium on
+Personal Indoor and Mobile Radio Communications (PIMRC)</em>, Cannes
+France, September 2008</li>
+<li><strong>Thorough Empirical Analysis of the IETF FMIPv6 Protocol over
+IEEE 802.11 Networks</strong>, E. Ivov, J. Montavont and T. Noël, in
+<em>IEEE Wireless Communications Magazine, special issue on
+Architectures and Protocols for Mobility Management in All-IP Mobile
+Networks</em>, Volume 15, Issue 2, pp. 65-72, April 2008 (IF:
+4.148)</li>
+<li><strong>Advantages of Flow Bindings: an Embedded Mobile Network Use
+Case</strong>, A. Boutet, B. Le Texier, J. Montavont, N. Montavont and
+G. Schreiner, in proceedings of the <em>Workshop on Experimental
+Evaluation and Deployment Experiences on Vehicular Networks (WEEDEV), in
+conjunction with TRIDENTCOM</em>, Innsbruck Austria, March 2008</li>
+</ul>
+</div>
+<div id="section-13" class="section level3">
+<h3>2007</h3>
+<ul>
+<li><strong>Analysis of a Geolocation-based FMIPv6 Extension for Next
+Generation Wireless LANs</strong>, J. Montavont, E. Ivov, T. Noël and K.
+Guillouard, in <em>Ubiquitous Computing and Communication Journal</em>,
+Volume 2, Number 5, October 2007</li>
+<li><strong>Analysis of Mobile IPv6 Handover Optimizations and their
+Impact on Real-Time Communication</strong>, J. Montavont, E. Ivov and T.
+Noël, in proceedings of the <em>IEEE Wireless Communications and
+Networking Conference (WCNC)</em>, Hong Kong China, March 2007
+(acceptance rate: 47%)</li>
+<li><strong>Wireless IPv6 Simulator: SimulX</strong>, N. Montavont, J.
+Montavont and S. Hachana, in proceedings of the <em>ACM/SIGSIM
+Communications and Networking Simulation Symposium (CNS), located with
+Spring Simulation Multiconference 2007 (SpringSim)</em>, Norfolk USA,
+March 2007</li>
+</ul>
+</div>
+<div id="section-14" class="section level3">
+<h3>2006</h3>
+<ul>
+<li><strong>Gestion des déplacements de terminaux IPv6 mobiles assistée
+par géolocalisation</strong>, J. Montavont, <em>PhD Thesis</em>, Louis
+Pasteur University, Strasbourg, FRANCE, December 2006</li>
+<li>**Anticipation des Handovers des Nœuds IPv6 à l’aide d’information
+de Géolocalisation<em>, J. Montavont, T. Noël and K. Guillouard, dans
+les actes du </em>Colloque Francophone sur l’Ingenierie des Protocoles
+(CFIP)*, Tozeur Tunisia, November 2006</li>
+<li><strong>Deploying NEMO: A Practical Approach</strong>, J. Montavont,
+J. Lorchat and T. Noël, in proceedings of the <em>International
+Conference on ITS Telecommunications (ITST)</em>, Chengdu China, June
+2006</li>
+<li><strong>IEEE 802.11 Handovers Assisted by GPS Information</strong>,
+J. Montavont and T. Noël, in proceedings of the <em>IEEE International
+Conference on Wireless and Mobile Computing, Networking and
+Communications (WiMob)</em>, Montréal Canada, June 2006</li>
+</ul>
+</div>
+<div id="section-15" class="section level3">
+<h3>2005</h3>
+<ul>
+<li><strong>Enhanced schemes for L2 handover in IEEE 802.11 networks and
+their evaluations</strong>, J. Montavont, N. Montavont and T. Noël, in
+proceedings of the <strong><em>IEEE International Symposium on Personal
+Indoor and Mobile Radio Communications (PIMRC)</em></strong>, Berlin
+Germany, September 2005</li>
+</ul>
+</div>
+</div>
+<div id="sort-by-type" class="section level2">
+<h2>Sort by type</h2>
+<div id="refereed-international-journals-9" class="section level3">
+<h3>Refereed International Journals (9)</h3>
 <ul>
 <li><a
 href="https://doi.org/10.1016/j.adhoc.2021.102578"><strong>REFLOOD:
 Reactive Routing Protocol for Wake-Up Radio in IoT</strong></a>, S.
-Sampayo, J. Montavont and T. Noël, in <em>Elsevier Ad Hoc Networks</em>,
-Volume 121, October 2021</li>
+Sampayo, J. Montavont and T. Noël, in <strong><em>Elsevier Ad Hoc
+Networks</em></strong>, Volume 121, October 2021</li>
 <li><a
 href="http://dx.doi.org/10.4108/eai.1-12-2016.151712"><strong>MT-RPL: a
 cross-layer approach for mobility support in RPL</strong></a>, C.
-Cobârzan, J. Montavont and T. Noël, in <em>EAI Endorsed Transactions on
-Internet of Things</em>, Volume 2, Issue 5, December 2016</li>
+Cobârzan, J. Montavont and T. Noël, in <strong><em>EAI Endorsed
+Transactions on Internet of Things</em></strong>, Volume 2, Issue 5,
+December 2016</li>
 <li><a
 href="http://dx.doi.org/10.1016/j.adhoc.2013.11.001"><strong>Mobile IPv6
 in Internet of Things: Analysis, Experimentations and
 Optimizations</strong></a>, J. Montavont, D. Roth and T. Noël, in
-<em>Elsevier Ad Hoc Networks</em>, Volume 14, pp. 15-25, March 2014 (IF:
-1.66)</li>
+<strong><em>Elsevier Ad Hoc Networks</em></strong>, Volume 14,
+pp. 15-25, March 2014 (IF: 1.66)</li>
 <li><a
 href="http://dx.doi.org/10.1109/JSEN.2013.2281910"><strong>Thorough
 Empirical Analysis of X-MAC over a Large Scale Internet of Things
 Testbed</strong></a>, J. Baudeaux, A. Gallais, J. Montavont, T. Noël, D.
-Roth and E. Valentin, in <em>IEEE Sensors Journal</em>, Special Issue on
-Internet of Things (IoT): Architecture, Protocols and Services, Volume
-14, Issue 2, pp. 383-392, February 2014 (IF: 1.889)</li>
+Roth and E. Valentin, in <strong><em>IEEE Sensors Journal</em></strong>,
+Special Issue on Internet of Things (IoT): Architecture, Protocols and
+Services, Volume 14, Issue 2, pp. 383-392, February 2014 (IF:
+1.889)</li>
 <li><a
 href="http://dx.doi.org/10.1007/s11235-011-9565-6"><strong>Improving the
 Medium Access in Highly Mobile Wireless Sensor Networks</strong></a>, R.
-Kuntz, J. Montavont and T. Noël, in <em>Journal of Telecommunication
-System, special issue on Recent Advance in Mobile Sensor Networks</em>,
-Volume 52, Issue 4, pp. 2437-2458, Springer, April 2013 (IF: 0.822)</li>
+Kuntz, J. Montavont and T. Noël, in <strong><em>Journal of
+Telecommunication System, special issue on Recent Advance in Mobile
+Sensor Networks</em></strong>, Volume 52, Issue 4, pp. 2437-2458,
+Springer, April 2013 (IF: 0.822)</li>
 <li><a
 href="http://dx.doi.org/10.1109/MCOM.2013.6400449"><strong>Multihoming
 in IPv6 Mobile Networks: Progress, Challenge and Solutions</strong></a>,
-R. Kuntz, J. Montavont and T. Noël, in <em>IEEE Communication
-Magazine</em>, Volume 51, Issue 1, pp. 128-135, January 2013 (IF:
-5.125)</li>
+R. Kuntz, J. Montavont and T. Noël, in <strong><em>IEEE Communication
+Magazine</em></strong>, Volume 51, Issue 1, pp. 128-135, January 2013
+(IF: 5.125)</li>
 <li><a href="http://dx.doi.org/10.1002/wcm.860"><strong>An Improved
 Network Mobility Service for Intelligent Transportation
 Systems</strong></a>, R. Kuntz, J. Montavont, G. Schreiner, D. Binet and
-T. Noël, in <em>Wireless Communications and Mobile Computing</em>,
-Volume 11, Issue 7, pp. 899-915, Wiley InterScience, July 2011 (IF:
-0.922)</li>
+T. Noël, in <strong><em>Wireless Communications and Mobile
+Computing</em></strong>, Volume 11, Issue 7, pp. 899-915, Wiley
+InterScience, July 2011 (IF: 0.922)</li>
 <li><a
 href="http://dx.doi.org/10.1109/MWC.2008.4492979"><strong>Thorough
 Empirical Analysis of the IETF FMIPv6 Protocol over IEEE 802.11
-Networks</strong></a>, E. Ivov, J. Montavont and T. Noël, in <em>IEEE
-Wireless Communications Magazine, Special Issue on Architectures and
-Protocols for Mobility Management in All-IP Mobile Networks</em>, Volume
-15, Issue 2, pp. 65-72, April 2008 (IF: 4.148)</li>
+Networks</strong></a>, E. Ivov, J. Montavont and T. Noël, in
+<strong><em>IEEE Wireless Communications Magazine, Special Issue on
+Architectures and Protocols for Mobility Management in All-IP Mobile
+Networks</em></strong>, Volume 15, Issue 2, pp. 65-72, April 2008 (IF:
+4.148)</li>
 <li><a
 href="http://ubicc.org/files/pdf/UBICC-montavont_101_101.pdf"><strong>Analysis
 of a Geolocation-based FMIPv6 Extension for Next Generation Wireless
 LANs</strong></a>, J. Montavont, E. Ivov, T. Noël and K. Guillouard in
-<em>Ubiquitous Computing and Communication Journal</em>, Volume 2,
-Number 5, October 2007</li>
+<strong><em>Ubiquitous Computing and Communication
+Journal</em></strong>, Volume 2, Number 5, October 2007</li>
 </ul>
 </div>
-<div id="refereed-international-conferences-26" class="section level2">
-<h2>Refereed International Conferences (26)</h2>
+<div id="refereed-international-conferences-22" class="section level3">
+<h3>Refereed International Conferences (22)</h3>
 <ul>
 <li><strong>Towards a Fully Programmable Internet of Things</strong>, A.
 Bruniaux, J. Montavont, T. Noël, G. Papadopoulos and N. Montavont,
@@ -643,8 +729,8 @@ and Mobile Radio Communications (PIMRC)</em>, Berlin Germany, September
 2005</li>
 </ul>
 </div>
-<div id="refereed-national-conferences-4" class="section level2">
-<h2>Refereed National Conferences (4)</h2>
+<div id="refereed-national-conferences-4" class="section level3">
+<h3>Refereed National Conferences (4)</h3>
 <ul>
 <li><strong>Selecting Parents with Wake-Up Radios for Load Balancing in
 RPL</strong>, S. Sampayo, J. Montavont et T. Noël, dans les actes du
@@ -666,8 +752,8 @@ Guillouard, dans les actes du <em>Colloque Francophone sur l’Ingenierie
 des Protocoles (CFIP)</em>, Tozeur Tunisia, November 2006</li>
 </ul>
 </div>
-<div id="workshops-3" class="section level2">
-<h2>Workshops (3)</h2>
+<div id="workshops-3" class="section level3">
+<h3>Workshops (3)</h3>
 <ul>
 <li><strong>A Performance Study of the Behavior of the Wake-Up Radio in
 Real-World Noisy Environments</strong>, S. Sampayo, J. Montavont and T.
@@ -686,8 +772,8 @@ and Deployment Experiences on Vehicular Networks (WEEDEV)</em>, in
 conjunction with TRIDENTCOM, Innsbruck Austria, March 2008</li>
 </ul>
 </div>
-<div id="demonstrations" class="section level2">
-<h2>Demonstrations</h2>
+<div id="demonstrations" class="section level3">
+<h3>Demonstrations</h3>
 <ul>
 <li><strong>CASINO: Creating Alea with a Sensor-based Interactive
 Network</strong>, J. Beaudaux, A. Gallais, R. Kuntz, J. Montavont, T.
@@ -695,36 +781,12 @@ Noël, D. Roth, F. Theoleyre and E. Valentin, demonstration abstract in
 proceedings of the <em>8th ACM Conference on Embedded Networked Sensor
 Systems (SenSys)</em>, Zurich Switzerland, November 2010</li>
 </ul>
-<p>This is an R Markdown document. Markdown is a simple formatting
-syntax for authoring HTML, PDF, and MS Word documents. For more details
-on using R Markdown see <a href="http://rmarkdown.rstudio.com"
-class="uri">http://rmarkdown.rstudio.com</a>.</p>
-<p>When you click the <strong>Knit</strong> button a document will be
-generated that includes both content as well as the output of any
-embedded R code chunks within the document. You can embed an R code
-chunk like this:</p>
-<div class="sourceCode" id="cb1"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="fu">summary</span>(cars)</span></code></pre></div>
-<pre><code>##      speed           dist       
-##  Min.   : 4.0   Min.   :  2.00  
-##  1st Qu.:12.0   1st Qu.: 26.00  
-##  Median :15.0   Median : 36.00  
-##  Mean   :15.4   Mean   : 42.98  
-##  3rd Qu.:19.0   3rd Qu.: 56.00  
-##  Max.   :25.0   Max.   :120.00</code></pre>
 </div>
-<div id="including-plots" class="section level2">
-<h2>Including Plots</h2>
-<p>You can also embed plots, for example:</p>
-<p><img src="publications_files/figure-html/pressure-1.png" width="672" /></p>
-<p>Note that the <code>echo = FALSE</code> parameter was added to the
-code chunk to prevent printing of the R code that generated the
-plot.</p>
+</div>
 </div>
 
 
 
-</div>
-</div>
 
 </div>
 
@@ -757,35 +819,6 @@ $(document).ready(function () {
 
 <!-- code folding -->
 
-<script>
-$(document).ready(function ()  {
-
-    // temporarily add toc-ignore selector to headers for the consistency with Pandoc
-    $('.unlisted.unnumbered').addClass('toc-ignore')
-
-    // move toc-ignore selectors from section div to header
-    $('div.section.toc-ignore')
-        .removeClass('toc-ignore')
-        .children('h1,h2,h3,h4,h5').addClass('toc-ignore');
-
-    // establish options
-    var options = {
-      selectors: "h1,h2",
-      theme: "bootstrap3",
-      context: '.toc-content',
-      hashGenerator: function (text) {
-        return text.replace(/[.\\/?&!#<>]/g, '').replace(/\s/g, '_');
-      },
-      ignoreSelector: ".toc-ignore",
-      scrollTo: 0
-    };
-    options.showAndHide = false;
-    options.smoothScroll = true;
-
-    // tocify
-    var toc = $("#TOC").tocify(options).data("toc-tocify");
-});
-</script>
 
 <!-- dynamically load mathjax for compatibility with self-contained -->
 <script>
