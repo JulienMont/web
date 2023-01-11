@@ -10,12 +10,7 @@ left:
     href: ./supervision.html
   - text: "Project"
     menu:
-       - text: "Project part 1"
-         href: ./project1.html
-       - text: "Project part 2"
-         href: ./project2.html
-  - text: "Lectures"
-    href: ./lectures.html
-right:
-  - icon: fa-github fa-lg
-    href: https://github.com/githubusername/mywebsite
+       - text: "Current"
+       - text: "Past"
+  - text: "Teaching"
+    href: ./teaching.html

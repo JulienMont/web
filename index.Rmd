@@ -5,10 +5,12 @@ output:
     toc: FALSE
 ---
 
-{r chunkname, echo=FALSE, out.width= "65%", out.extra='style="float:right; padding:10px"'}
-![Caption for the picture.](/path/to/image.png)
+<img align="right" width="180" src="./jm.jpg">
 
-**Associate Professor in Computer Science**
+<br>
+
+**Associate Professor in Computer Science**   
+Deputy head of the Network Research Group
 
 Organization: ICube (UMR CNRS 7357) / University of Strasbourg  
 Group: Network Research Group  
@@ -17,14 +19,30 @@ Pole API, 300 Boulevard Sebastien Brant,
 67412 Illkirch, France  
 Email: montavont [ at ] unistra (dot) fr
 
+<br>
+<br>
+<br>
+
 ## Research interest
 
-I am interested in developing new MAC and routing protocols for the Internet of Things (IoT) and Low-Power Wide Area Networks (LPWAN) which raises new constraints due to the limited computational power, memory and energy of devices that compose the network. I am particularly focusing on mobility support in IoT and LPWAN. Formerly, I was working on mobility management over IPv6 networks, from single host mobility to entire network mobility. I had studied all kind of solutions aiming to provide seamless terminal mobility over a wireless environment.
+I am interested in developing new MAC and routing protocols for the Internet of Things (IoT) and Low-Power Wide Area Networks (LPWAN) which raises new constraints due to the limited computational power, memory and energy of devices that compose the network. I am particularly focusing on mobility support in IoT and LPWAN. In addition, I am working on defining the building blocks toward a fully programmable communication stack for wireless networks, leveraging the SDN paradigm. Formerly, I was working on mobility management over IPv6 networks, from single host mobility to entire network mobility. I had studied all kind of solutions aiming to provide seamless terminal mobility over a wireless environment.
 
 ## Research topics
 
 - MAC and routing protocols for IoT and LPWAN
 - Mobility management in IoT and LPWAN
+- SDN for wireless networks
 - Multihoming in IoT and LPWAN
 - Mobile IPv6 and its extensions (NEMO BS, etc.)
-- Network experimentations 
+- Network experimentations
+
+## Participation to conference committees
+* PC member of IEEE WiMob 2022
+* PC member of IEEE ISCC 2022
+* PC member of IEEE ISCC 2020
+* PC chair of the AWAKE workshop 2020
+* PC member of AdHoc-Now 2020
+* PC member of AdHoc-Now 2019
+* PC chair of AdHoc-Now 2018
+* PC chair of 5G and Beyond track of IFIP Wireless Days 2016
+* PC member of the International workshop on NS-3 (WNS3) 2011
