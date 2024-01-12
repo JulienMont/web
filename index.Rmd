@@ -37,12 +37,11 @@ I am interested in developing new MAC and routing protocols for the Internet of 
 - Network experimentations
 
 ## Participation to conference committees
-* PC member of IEEE WiMob 2022
-* PC member of IEEE ISCC 2022
-* PC member of IEEE ISCC 2020
+
+* PC member of IEEE ISCC 2020, 2022, 2023 and 2024
+* PC member of IEEE WiMob 2022 and 2023
 * PC chair of the AWAKE workshop 2020
-* PC member of AdHoc-Now 2020
-* PC member of AdHoc-Now 2019
+* PC member of AdHoc-Now 2019 and 2020
 * PC chair of AdHoc-Now 2018
 * PC chair of 5G and Beyond track of IFIP Wireless Days 2016
 * PC member of the International workshop on NS-3 (WNS3) 2011

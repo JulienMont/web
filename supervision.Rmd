@@ -11,11 +11,16 @@ knitr::opts_chunk$set(echo = TRUE)
 
 ### PhD Students
 
+- **Ahmad Mahmod** (2023 - ...)  
+Co-supervision with Thomas Noël  
+Ph.D. Thesis: Software Defined Low-Power and Lossy Wireless Networks    
+Funding: MESR grant
+
 - **Amaury Bruniaux** (2020 - ...)  
 Co-supervision with Nicolas Montavont, Georgios Papadopoulos and Thomas Noël  
 Ph.D. Thesis: SDN approach to support ubiquitous IoT technologies
 
-- **Farzad Veisi** (2020 - ...)  
+- **Farzad Veisi** (2020 - 2023)  
 Co-supervision with Fabrice Théoleyre  
 Ph.D. Thesis: Software Defined Industrial Internet of Things  
 Funding: MESR grant
