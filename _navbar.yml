@@ -13,5 +13,6 @@ left:
     - text: "Current"
       href: ./current.html
     - text: "Past"
+      href: ./past.html
   - text: "Teaching"
     href: ./teaching.html

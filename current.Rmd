@@ -9,6 +9,22 @@ output:
 knitr::opts_chunk$set(echo = TRUE)
 ```
 
-- **ANR PERENNE**
+<br>
 
-- **NF MUST**
+### PERENNE (2024 - 2027)
+
+**Programmable wireless communication stack for sustainable deployments**
+
+Perenne is a collaborative research project between public entities at national level (PRC) funded by the French National Agency (ANR) 🇫🇷 in the 2023 generic call for proposals (AAPG) by the scientific evaluation panel (CES) 25. Perenne is certified by the competitive cluster Images & Réseaux. I'm the scientific coordinator of the project. The project has been granted a funding amount of k€632 over a period of 42 months.
+
+More information on the [project web page](https://perenne.icube.unistra.fr)
+
+<br>
+
+### PEPR Futur Networks - MUST Project (2023 - 2029)
+
+**End-to-End multi-domain services management architecture of the networks of the future**
+
+This project is part of the PEPR on Futur Networks and focuses on managing diverse services across various sectors using a scalable infrastructure fit for future 5G/6G networks. It emphasizes secure distributed services and coordinating interactions among stakeholders. MUST ensures aligning service requests with network capacities throughout their lifecycle. In this project, I serve as the Principal Investigator representing the ICube lab. The project has been granted a funding amount of €3.7 million over a period of six years.
+
+More information on the [project web page](https://pepr-futurenetworks.fr/en/projet/must/)

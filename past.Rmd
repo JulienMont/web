@@ -1,0 +1,58 @@
+---
+title: "Past Research project"
+output:
+  html_document:
+    toc: False
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+<br>
+
+### Wake-UP (2018 - 2021)
+
+<br>
+
+### Equipex FIT (2011 - 2020)
+
+<br>
+
+### LoRaCROFT (2015 - 2016)
+
+<br>
+
+### LoWSN (2015 - 2016)
+
+<br>
+
+### IRIS (2012 - 2015)
+
+<br>
+
+### UBIQUITY (2014 - 2015)
+
+<br>
+
+### QoSMR (2011 - 2012)
+
+<br>
+
+### SENSLAB (2008 - 2011)
+
+<br>
+
+### DAHLIA (2009 - 2012)
+
+<br>
+
+### EXPRIMA (2010 - 2011)
+
+<br>
+
+### REMORA (2006 - 2008)
+
+<br>
+
+### SINEMA (2006 - 2008)
