@@ -46,6 +46,11 @@ Ph.D. Thesis: Medium Access Control Facing the Dynamics of Wireless Sensor Netwo
 
 ### Master 2 Internship
 
+- **Anna Beatriz De-Souza-Perotto** (2024)  
+Co-supervision with Thomas Noël  
+Subject: Establishing a 5G-Enabled Connected Operating Room and Hospital-to-Home Patient Monitoring: Optimization of Latency and Handovers between Private and Public 5G Networks  
+Funding: ITI Healthtech grant
+
 - **Simon Raul** (2022)  
 Co-supervision with Cristel Pelsser and Thomas Noël  
 Subject: Anomaly detection in Internet of Things  

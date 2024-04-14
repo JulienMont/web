@@ -15,6 +15,8 @@ knitr::opts_chunk$set(echo = TRUE)
 
 ### 2024
 
+- [Menu ou à la carte ? Une architecture pour rendre programmable le plan de donnée des réseaux sans fil contraints](), A. Mahmod, J. Montavont, T. Noël, dans les actes du *colloque francophone sur la conception de protocoles, l’évaluation de performance et l’expérimentation des réseaux de communication (CoRes)*, Saint-Briac-sur-Mer, France, May 2024
+
 - [Efficient and Reliable Maintenance for SDN-based Scheduled Wireless Networks]() F. Veysi, J. Montavont and F. Théoleyre, in proceedings of the *IEEE Consumer Communications & Networking Conference (CCNC)*, Las Vegas, United States, January 2024
 
 ### 2023
@@ -219,7 +221,9 @@ knitr::opts_chunk$set(echo = TRUE)
 
 - [Enhanced schemes for L2 handover in IEEE 802.11 networks and their evaluations](http://dx.doi.org/10.1109/PIMRC.2005.1651681), J. Montavont, N. Montavont and T. Noël, in proceedings of the *IEEE International Symposium on Personal Indoor and Mobile Radio Communications (PIMRC)*, Berlin Germany, September 2005 
 
-### Refereed National Conferences (5)
+### Refereed National Conferences (6)
+
+- [Menu ou à la carte ? Une architecture pour rendre programmable le plan de donnée des réseaux sans fil contraints](), A. Mahmod, J. Montavont, T. Noël, dans les actes du *colloque francophone sur la conception de protocoles, l’évaluation de performance et l’expérimentation des réseaux de communication (CoRes)*, Saint-Briac-sur-Mer, France, May 2024
 
 - [WURST: routage pour réseaux IoT multi-technologies purement asynchrones](https://hal.science/hal-04085522v1), L. Niess, J. Montavont et P. Mérindol, dans les actes du *colloque francophone sur la conception de protocoles, l’évaluation de performance et l’expérimentation des réseaux de communication (CoRes)*, Cargèse, France, May 2023
 

@@ -10,7 +10,8 @@ left:
     href: ./supervision.html
   - text: "Project"
     menu:
-       - text: "Current"
-       - text: "Past"
+    - text: "Current"
+      href: ./current.html
+    - text: "Past"
   - text: "Teaching"
     href: ./teaching.html
