@@ -13,7 +13,7 @@
 
 <title>publications.knit</title>
 
-<script src="site_libs/header-attrs-2.14/header-attrs.js"></script>
+<script src="site_libs/header-attrs-2.29/header-attrs.js"></script>
 <script src="site_libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <link href="site_libs/bootstrap-3.3.5/css/sandstone.min.css" rel="stylesheet" />
@@ -46,6 +46,7 @@
 
 
 
+<link rel="stylesheet" href="styles.css" type="text/css" />
 
 
 
@@ -129,11 +130,15 @@ $(document).ready(function () {
     href = "index.html";
   var menuAnchor = $('a[href="' + href + '"]');
 
-  // mark it active
-  menuAnchor.tab('show');
-
-  // if it's got a parent navbar menu mark it active as well
-  menuAnchor.closest('li.dropdown').addClass('active');
+  // mark the anchor link active (and if it's in a dropdown, also mark that active)
+  var dropdown = menuAnchor.closest('li.dropdown');
+  if (window.bootstrap) { // Bootstrap 4+
+    menuAnchor.addClass('active');
+    dropdown.find('> .dropdown-toggle').addClass('active');
+  } else { // Bootstrap 3
+    menuAnchor.parent().addClass('active');
+    dropdown.addClass('active');
+  }
 
   // Navbar adjustments
   var navHeight = $(".navbar").first().height() + 15;
@@ -162,8 +167,8 @@ $(document).ready(function () {
   border-radius: 4px;
 }
 
-.tabset-dropdown > .nav-tabs > li.active:before {
-  content: "";
+.tabset-dropdown > .nav-tabs > li.active:before, .tabset-dropdown > .nav-tabs.nav-tabs-open:before {
+  content: "\e259";
   font-family: 'Glyphicons Halflings';
   display: inline-block;
   padding: 10px;
@@ -171,16 +176,9 @@ $(document).ready(function () {
 }
 
 .tabset-dropdown > .nav-tabs.nav-tabs-open > li.active:before {
-  content: "&#xe258;";
-  border: none;
-}
-
-.tabset-dropdown > .nav-tabs.nav-tabs-open:before {
-  content: "";
+  content: "\e258";
   font-family: 'Glyphicons Halflings';
-  display: inline-block;
-  padding: 10px;
-  border-right: 1px solid #ddd;
+  border: none;
 }
 
 .tabset-dropdown > .nav-tabs > li.active {
@@ -282,6 +280,16 @@ class="section level1 tabset tabset-fade tabset-pills">
 <div id="sort-by-year" class="section level2">
 <h2>Sort by year</h2>
 <div id="section" class="section level3">
+<h3>2025</h3>
+<ul>
+<li><a href="">Programmable Solutions for Low-power and Lossy Wireless
+Networks: A Study of SDN and Femto Containers</a> A. Mahmod, J.
+Montavont and T. Noël, in proceedings of the <em>39th International
+Conference on Advanced Information Networking and Applications
+(AINA)</em>, Barcelona, Spain, April 2025</li>
+</ul>
+</div>
+<div id="section-1" class="section level3">
 <h3>2024</h3>
 <ul>
 <li><p><a href="">Menu ou à la carte ? Une architecture pour rendre
@@ -296,7 +304,7 @@ in proceedings of the <em>IEEE Consumer Communications &amp; Networking
 Conference (CCNC)</em>, Las Vegas, United States, January 2024</p></li>
 </ul>
 </div>
-<div id="section-1" class="section level3">
+<div id="section-2" class="section level3">
 <h3>2023</h3>
 <ul>
 <li><p><a href="https://doi.org/10.1109/JIOT.2023.3302994">Enabling
@@ -317,7 +325,7 @@ l’expérimentation des réseaux de communication (CoRes)</em>, Cargèse,
 France, May 2023</p></li>
 </ul>
 </div>
-<div id="section-2" class="section level3">
+<div id="section-3" class="section level3">
 <h3>2022</h3>
 <ul>
 <li><p><a
@@ -345,7 +353,7 @@ of the <em>IEEE Wireless Communications and Networking Conference
 (WCNC)</em>, Austin, TX, USA, April 2022</p></li>
 </ul>
 </div>
-<div id="section-3" class="section level3">
+<div id="section-4" class="section level3">
 <h3>2021</h3>
 <ul>
 <li><a href="https://doi.org/10.1016/j.adhoc.2021.102578">REFLOOD:
@@ -354,7 +362,7 @@ Montavont and T. Noël, in <em>Elsevier Ad Hoc Networks</em>, Volume 121,
 October 2021</li>
 </ul>
 </div>
-<div id="section-4" class="section level3">
+<div id="section-5" class="section level3">
 <h3>2020</h3>
 <ul>
 <li><a
@@ -366,7 +374,7 @@ generation wireless communications (AWAKE), in conjunction with
 EWSN</em>, Lyon France, February 2020</li>
 </ul>
 </div>
-<div id="section-5" class="section level3">
+<div id="section-6" class="section level3">
 <h3>2019</h3>
 <ul>
 <li><p><a href="https://doi.org/10.1007/978-3-030-31831-4_27">eLoBaPS:
@@ -392,7 +400,7 @@ l’expérimentation des réseaux de communication (CoRes)</em>, Saint
 Laurent de la Cabrerisse, France, June 2019</p></li>
 </ul>
 </div>
-<div id="section-6" class="section level3">
+<div id="section-7" class="section level3">
 <h3>2018</h3>
 <ul>
 <li><a href="https://doi.org/10.1109/WiMOB.2018.8589163">Is Wake-Up
@@ -403,7 +411,7 @@ Wireless and Mobile Computing, Networking and Communications
 (WiMob)</em>, Limassol Cyprus, October 2018 (acceptance rate: 28%)</li>
 </ul>
 </div>
-<div id="section-7" class="section level3">
+<div id="section-8" class="section level3">
 <h3>2016</h3>
 <ul>
 <li><p><a href="http://dx.doi.org/10.4108/eai.1-12-2016.151712">MT-RPL:
@@ -424,7 +432,7 @@ Montavont, N. Montavont and T. Noël, in proceedings of the
 37%)</p></li>
 </ul>
 </div>
-<div id="section-8" class="section level3">
+<div id="section-9" class="section level3">
 <h3>2015</h3>
 <ul>
 <li><p><a
@@ -441,7 +449,7 @@ and Communication Technologies (RIVF)</em>, Cantho Vietnam, January 2015
 (acceptance rate: 42%)</p></li>
 </ul>
 </div>
-<div id="section-9" class="section level3">
+<div id="section-10" class="section level3">
 <h3>2014</h3>
 <ul>
 <li><p><a href="http://dx.doi.org/10.1109/ISCC.2014.6912471">Analysis
@@ -461,7 +469,7 @@ Things (IoT): Architecture, Protocols and Services</em>, Volume 14,
 Issue 2, pp. 383-392, February 2014 (IF: 1.889)</p></li>
 </ul>
 </div>
-<div id="section-10" class="section level3">
+<div id="section-11" class="section level3">
 <h3>2013</h3>
 <ul>
 <li><p><a href="http://dx.doi.org/10.1007/s11235-011-9565-6">Improving
@@ -477,7 +485,7 @@ Magazine</em>, Volume 51, Issue 1, pp. 128-135, January 2013 (IF:
 5.125)</p></li>
 </ul>
 </div>
-<div id="section-11" class="section level3">
+<div id="section-12" class="section level3">
 <h3>2012</h3>
 <ul>
 <li><p><a href="http://dx.doi.org/10.1145/2387027.2387041">Performance
@@ -492,7 +500,7 @@ actes des <em>journées francophones Mobilité et Ubiquité (Ubimob)</em>,
 Anglet France, June 2012</p></li>
 </ul>
 </div>
-<div id="section-12" class="section level3">
+<div id="section-13" class="section level3">
 <h3>2011</h3>
 <ul>
 <li><p><a href="http://dx.doi.org/10.1002/wcm.860">An Improved Network
@@ -519,7 +527,7 @@ Communications and Networking Conference (WCNC)</em>, Cancun Mexico,
 March 2011 (acceptance rate: 48%)</p></li>
 </ul>
 </div>
-<div id="section-13" class="section level3">
+<div id="section-14" class="section level3">
 <h3>2010</h3>
 <ul>
 <li><p><a href="http://dx.doi.org/10.1145/1869983.1870033">CASINO:
@@ -536,7 +544,7 @@ Francophones sur les Aspects Algorithmiques de Télécommunications
 57%)</p></li>
 </ul>
 </div>
-<div id="section-14" class="section level3">
+<div id="section-15" class="section level3">
 <h3>2008</h3>
 <ul>
 <li><p><a
@@ -566,7 +574,7 @@ on Vehicular Networks (WEEDEV), in conjunction with TRIDENTCOM</em>,
 Innsbruck Austria, March 2008</p></li>
 </ul>
 </div>
-<div id="section-15" class="section level3">
+<div id="section-16" class="section level3">
 <h3>2007</h3>
 <ul>
 <li><p><a
@@ -588,7 +596,7 @@ Simulation Symposium (CNS), located with Spring Simulation
 Multiconference 2007 (SpringSim)</em>, Norfolk USA, March 2007</p></li>
 </ul>
 </div>
-<div id="section-16" class="section level3">
+<div id="section-17" class="section level3">
 <h3>2006</h3>
 <ul>
 <li><p><a
@@ -612,7 +620,7 @@ Wireless and Mobile Computing, Networking and Communications
 (WiMob)</em>, Montréal Canada, June 2006</p></li>
 </ul>
 </div>
-<div id="section-17" class="section level3">
+<div id="section-18" class="section level3">
 <h3>2005</h3>
 <ul>
 <li><a href="http://dx.doi.org/10.1109/PIMRC.2005.1651681">Enhanced
@@ -696,9 +704,14 @@ LANs</a>, J. Montavont, E. Ivov, T. Noël and K. Guillouard in
 Number 5, October 2007</p></li>
 </ul>
 </div>
-<div id="refereed-international-conferences-24" class="section level3">
-<h3>Refereed International Conferences (24)</h3>
+<div id="refereed-international-conferences-25" class="section level3">
+<h3>Refereed International Conferences (25)</h3>
 <ul>
+<li><p><a href="">Programmable Solutions for Low-power and Lossy
+Wireless Networks: A Study of SDN and Femto Containers</a> A. Mahmod, J.
+Montavont and T. Noël, in proceedings of the <em>39th International
+Conference on Advanced Information Networking and Applications
+(AINA)</em>, Barcelona, Spain, April 2025</p></li>
 <li><p><a href="">Efficient and Reliable Maintenance for SDN-based
 Scheduled Wireless Networks</a> F. Veysi, J. Montavont and F. Théoleyre,
 in proceedings of the <em>IEEE Consumer Communications &amp; Networking

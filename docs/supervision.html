@@ -11,9 +11,9 @@
 
 
 
-<title>Supervision</title>
+<title>supervision.knit</title>
 
-<script src="site_libs/header-attrs-2.14/header-attrs.js"></script>
+<script src="site_libs/header-attrs-2.29/header-attrs.js"></script>
 <script src="site_libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <link href="site_libs/bootstrap-3.3.5/css/sandstone.min.css" rel="stylesheet" />
@@ -46,6 +46,7 @@
 
 
 
+<link rel="stylesheet" href="styles.css" type="text/css" />
 
 
 
@@ -129,11 +130,15 @@ $(document).ready(function () {
     href = "index.html";
   var menuAnchor = $('a[href="' + href + '"]');
 
-  // mark it active
-  menuAnchor.tab('show');
-
-  // if it's got a parent navbar menu mark it active as well
-  menuAnchor.closest('li.dropdown').addClass('active');
+  // mark the anchor link active (and if it's in a dropdown, also mark that active)
+  var dropdown = menuAnchor.closest('li.dropdown');
+  if (window.bootstrap) { // Bootstrap 4+
+    menuAnchor.addClass('active');
+    dropdown.find('> .dropdown-toggle').addClass('active');
+  } else { // Bootstrap 3
+    menuAnchor.parent().addClass('active');
+    dropdown.addClass('active');
+  }
 
   // Navbar adjustments
   var navHeight = $(".navbar").first().height() + 15;
@@ -162,8 +167,8 @@ $(document).ready(function () {
   border-radius: 4px;
 }
 
-.tabset-dropdown > .nav-tabs > li.active:before {
-  content: "";
+.tabset-dropdown > .nav-tabs > li.active:before, .tabset-dropdown > .nav-tabs.nav-tabs-open:before {
+  content: "\e259";
   font-family: 'Glyphicons Halflings';
   display: inline-block;
   padding: 10px;
@@ -171,16 +176,9 @@ $(document).ready(function () {
 }
 
 .tabset-dropdown > .nav-tabs.nav-tabs-open > li.active:before {
-  content: "&#xe258;";
-  border: none;
-}
-
-.tabset-dropdown > .nav-tabs.nav-tabs-open:before {
-  content: "";
+  content: "\e258";
   font-family: 'Glyphicons Halflings';
-  display: inline-block;
-  padding: 10px;
-  border-right: 1px solid #ddd;
+  border: none;
 }
 
 .tabset-dropdown > .nav-tabs > li.active {
@@ -272,7 +270,6 @@ $(document).ready(function () {
 
 
 
-<h1 class="title toc-ignore">Supervision</h1>
 
 </div>
 
@@ -280,38 +277,60 @@ $(document).ready(function () {
 <div id="phd-students" class="section level3">
 <h3>PhD Students</h3>
 <ul>
+<li><p><strong>Ali Mustapha</strong> (2024 - …)<br />
+Co-supervision with Fabrice Théoleyre<br />
+Ph.D. Thesis: Inter-domain Monitoring and Predictions for Service
+Orchestration in 5G<br />
+Funding: Future Networks Priority Research Programme and Equipment
+(PEPR)</p></li>
+<li><p><strong>Thomas Le Tarnec</strong> (2024 - …)<br />
+Co-supervision with Georgios Papadopoulos, Guillaume Le Gall and Thomas
+Noël<br />
+Ph.D. Thesis: Programmable Wireless Protocol Stack<br />
+Funding: PERENNE ANR research project</p></li>
 <li><p><strong>Ahmad Mahmod</strong> (2023 - …)<br />
 Co-supervision with Thomas Noël<br />
 Ph.D. Thesis: Software Defined Low-Power and Lossy Wireless
 Networks<br />
 Funding: MESR grant</p></li>
-<li><p><strong>Amaury Bruniaux</strong> (2020 - …)<br />
+<li><details style="margin-bottom: 20px;">
+<summary>
+<p><strong>Former PhD Students</strong></p>
+</summary>
+<ul>
+<li><p><strong>Amaury Bruniaux</strong> (2020 - 2024)<br />
 Co-supervision with Nicolas Montavont, Georgios Papadopoulos and Thomas
 Noël<br />
-Ph.D. Thesis: SDN approach to support ubiquitous IoT
-technologies</p></li>
+Ph.D. Thesis: SDN approach to support ubiquitous IoT technologies<br />
+<em>PhD work discontinued before defense</em></p></li>
 <li><p><strong>Farzad Veisi</strong> (2020 - 2023)<br />
 Co-supervision with Fabrice Théoleyre<br />
-Ph.D. Thesis: Software Defined Industrial Internet of Things<br />
+Ph.D. Thesis: <a href="https://theses.fr/2023STRAD061">Enhancing
+industrial Internet of things through software-defined networking: from
+building the network to flow management</a><br />
 Funding: MESR grant</p></li>
 <li><p><strong>Sebastian Lucas Sampayo</strong> (2018 - 2021)<br />
 Co-supervision with Thomas Noël<br />
-Ph.D. Thesis: Polymorphic network protocol suite in heterogeneous
-wake-up IoT networks<br />
+Ph.D. Thesis: <a href="https://theses.fr/2021STRAD005">Polymorphic
+network protocol suite in heterogeneous wake-up IoT networks</a><br />
 Funding: ANR Infra - WakeUP project</p></li>
 <li><p><strong>Cosmin Cobârzan</strong> (2012 - 2015)<br />
 Co-supervision with Thomas Noël<br />
-Ph.D. Thesis: Internet of Highly Mobile Things<br />
+Ph.D. Thesis: <a href="https://theses.fr/2015STRAD037">Internet of
+Highly Mobile Things</a><br />
 Funding: grant from Institut Mines-Telecom - Future et Rupture
 program</p></li>
 <li><p><strong>Damien Roth</strong> (2009 - 2012)<br />
 Co-supervision with Thomas Noël<br />
-Ph.D. Thesis: Mobility management in Wireless Sensor Networks<br />
+Ph.D. Thesis: <a href="https://theses.fr/2012STRAD031">Mobility
+management of wireless sensor networks</a><br />
 Funding: MESR grant</p></li>
 <li><p><strong>Romain Kuntz</strong> (2007 - 2010)<br />
 Co-supervision with Thomas Noël<br />
-Ph.D. Thesis: Medium Access Control Facing the Dynamics of Wireless
-Sensor Networks</p></li>
+Ph.D. Thesis: <a href="https://theses.fr/2010STRA6077">Medium access
+control facing the dynamics of wireless sensor networks</a></p></li>
+</ul>
+</details></li>
 </ul>
 </div>
 <div id="master-2-internship" class="section level3">

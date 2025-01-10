@@ -2,6 +2,7 @@ name: "My new website"
 output_dir: 'docs'
 output:
   html_document:
+    css: styles.css
     theme: sandstone
     highlight: pygments
     toc: true

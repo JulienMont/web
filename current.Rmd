@@ -11,17 +11,27 @@ knitr::opts_chunk$set(echo = TRUE)
 
 <br>
 
+### TURFU-NET (2024 - 2028)
+
+**Transcending the Usual Rationale for the Future of Ubiquitous NETworks**
+
+TURFU-NET is a collaborative research project involving public entities at the national level, funded by the French National Research Agency (ANR 🇫🇷) under the 2024 call for proposals on Specific Topics in Artificial Intelligence (TSIA), with a focus on Artificial Intelligence for Future Networks. As a member of the project, I am primarily involved in developing innovative data collection schemes and detecting gray failures using AI. The project has been awarded €577k in funding for a duration of 48 months.
+
+More information on the [project web page](https://turfu.icube.unistra.fr)
+
+<br>
+
 ### PERENNE (2024 - 2027)
 
 **Programmable wireless communication stack for sustainable deployments**
 
-Perenne is a collaborative research project between public entities at national level (PRC) funded by the French National Agency (ANR) 🇫🇷 in the 2023 generic call for proposals (AAPG) by the scientific evaluation panel (CES) 25. Perenne is certified by the competitive cluster Images & Réseaux. I'm the scientific coordinator of the project. The project has been granted a funding amount of k€632 over a period of 42 months.
+Perenne is a collaborative research project between public entities at national level (PRC) funded by the French National Agency (ANR🇫🇷) in the 2023 generic call for proposals (AAPG) by the scientific evaluation panel (CES) 25. Perenne is certified by the competitive cluster Images & Réseaux. I'm the scientific coordinator of the project. The project has been granted a funding amount of k€632 over a period of 42 months.
 
 More information on the [project web page](https://perenne.icube.unistra.fr)
 
 <br>
 
-### PEPR Futur Networks - MUST Project (2023 - 2029)
+### PEPR Future Networks - MUST Project (2023 - 2029)
 
 **End-to-End multi-domain services management architecture of the networks of the future**
 

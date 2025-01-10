@@ -10,7 +10,7 @@ output:
 <br>
 
 **Associate Professor in Computer Science**   
-Deputy head of the Network Research Group
+Co-head of the [Network Research Group](https://reseaux.icube.unistra.fr/en/index.php/Home)
 
 Organization: ICube (UMR CNRS 7357) / University of Strasbourg  
 Group: Network Research Group  
@@ -25,16 +25,15 @@ Email: montavont [ at ] unistra (dot) fr
 
 ## Research interest
 
-I am interested in developing new MAC and routing protocols for the Internet of Things (IoT) and Low-Power Wide Area Networks (LPWAN) which raises new constraints due to the limited computational power, memory and energy of devices that compose the network. I am particularly focusing on mobility support in IoT and LPWAN. In addition, I am working on defining the building blocks toward a fully programmable communication stack for wireless networks, leveraging the SDN paradigm. Formerly, I was working on mobility management over IPv6 networks, from single host mobility to entire network mobility. I had studied all kind of solutions aiming to provide seamless terminal mobility over a wireless environment.
+My research focuses on the development and optimization of protocols for wireless networks, with a particular emphasis on MAC and routing protocols tailored for dynamic and resource-constrained environments. I am particularly interested in the integration of Software-Defined Networking (SDN) to create programmable wireless networks, offering flexibility and improved performance. Additionally, I explore mobility management and multihoming techniques to enhance the robustness and efficiency of networks, especially in challenging real-world scenarios. My work also involves extensive experimentation and simulation to evaluate the performance and scalability of these solutions in various network settings.
 
 ## Research topics
 
-- MAC and routing protocols for IoT and LPWAN
-- Mobility management in IoT and LPWAN
-- SDN for wireless networks
-- Multihoming in IoT and LPWAN
-- Mobile IPv6 and its extensions (NEMO BS, etc.)
-- Network experimentations
+- MAC and routing protocols for wireless networks
+- SDN/Programmable wireless networks
+- Mobility management
+- Multihoming
+- Network experimentations and simulations
 
 ## Participation to conference committees
 

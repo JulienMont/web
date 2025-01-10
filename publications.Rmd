@@ -13,6 +13,10 @@ knitr::opts_chunk$set(echo = TRUE)
 
 ## Sort by year
 
+### 2025
+
+- [Programmable Solutions for Low-power and Lossy Wireless Networks: A Study of SDN and Femto Containers]() A. Mahmod, J. Montavont and T. Noël, in proceedings of the *39th International Conference on Advanced Information Networking and Applications (AINA)*, Barcelona, Spain, April 2025
+
 ### 2024
 
 - [Menu ou à la carte ? Une architecture pour rendre programmable le plan de donnée des réseaux sans fil contraints](), A. Mahmod, J. Montavont, T. Noël, dans les actes du *colloque francophone sur la conception de protocoles, l’évaluation de performance et l’expérimentation des réseaux de communication (CoRes)*, Saint-Briac-sur-Mer, France, May 2024
@@ -171,7 +175,9 @@ knitr::opts_chunk$set(echo = TRUE)
 
 - [Analysis of a Geolocation-based FMIPv6 Extension for Next Generation Wireless LANs](http://ubicc.org/files/pdf/UBICC-montavont_101_101.pdf), J. Montavont, E. Ivov, T. Noël and K. Guillouard in *Ubiquitous Computing and Communication Journal*, Volume 2, Number 5, October 2007 
 
-### Refereed International Conferences (24)
+### Refereed International Conferences (25)
+
+- [Programmable Solutions for Low-power and Lossy Wireless Networks: A Study of SDN and Femto Containers]() A. Mahmod, J. Montavont and T. Noël, in proceedings of the *39th International Conference on Advanced Information Networking and Applications (AINA)*, Barcelona, Spain, April 2025
 
 - [Efficient and Reliable Maintenance for SDN-based Scheduled Wireless Networks]() F. Veysi, J. Montavont and F. Théoleyre, in proceedings of the *IEEE Consumer Communications & Networking Conference (CCNC)*, Las Vegas, United States, January 2024
 

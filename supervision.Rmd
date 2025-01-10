@@ -1,5 +1,5 @@
 ---
-title: "Supervision"
+title: ""
 output:
   html_document:
     toc: False
@@ -11,38 +11,51 @@ knitr::opts_chunk$set(echo = TRUE)
 
 ### PhD Students
 
+- **Ali Mustapha** (2024 - ...)  
+Co-supervision with Fabrice Théoleyre  
+Ph.D. Thesis: Inter-domain Monitoring and Predictions for Service Orchestration in 5G    
+Funding: Future Networks Priority Research Programme and Equipment (PEPR) 
+
+- **Thomas Le Tarnec** (2024 - ...)   
+Co-supervision with Georgios Papadopoulos, Guillaume Le Gall and Thomas Noël  
+Ph.D. Thesis: Programmable Wireless Protocol Stack  
+Funding: PERENNE ANR research project
+
 - **Ahmad Mahmod** (2023 - ...)  
 Co-supervision with Thomas Noël  
 Ph.D. Thesis: Software Defined Low-Power and Lossy Wireless Networks    
 Funding: MESR grant
 
-- **Amaury Bruniaux** (2020 - ...)  
+- <details style="margin-bottom: 20px;"><summary><strong>Former PhD Students</strong></summary>
+  - **Amaury Bruniaux** (2020 - 2024)  
 Co-supervision with Nicolas Montavont, Georgios Papadopoulos and Thomas Noël  
-Ph.D. Thesis: SDN approach to support ubiquitous IoT technologies
+Ph.D. Thesis: SDN approach to support ubiquitous IoT technologies   
+*PhD work discontinued before defense*
 
-- **Farzad Veisi** (2020 - 2023)  
+  - **Farzad Veisi** (2020 - 2023)  
 Co-supervision with Fabrice Théoleyre  
-Ph.D. Thesis: Software Defined Industrial Internet of Things  
+Ph.D. Thesis: [Enhancing industrial Internet of things through software-defined networking: from building the network to flow management](https://theses.fr/2023STRAD061)  
 Funding: MESR grant
 
-- **Sebastian Lucas Sampayo** (2018 - 2021)  
+  - **Sebastian Lucas Sampayo** (2018 - 2021)  
 Co-supervision with Thomas Noël  
-Ph.D. Thesis: Polymorphic network protocol suite in heterogeneous wake-up IoT networks  
+Ph.D. Thesis: [Polymorphic network protocol suite in heterogeneous wake-up IoT networks](https://theses.fr/2021STRAD005)  
 Funding: ANR Infra - WakeUP project
 
-- **Cosmin Cobârzan** (2012 - 2015)  
+  - **Cosmin Cobârzan** (2012 - 2015)  
 Co-supervision with Thomas Noël  
-Ph.D. Thesis: Internet of Highly Mobile Things  
+Ph.D. Thesis: [Internet of Highly Mobile Things](https://theses.fr/2015STRAD037)  
 Funding: grant from Institut Mines-Telecom - Future et Rupture program
 
-- **Damien Roth** (2009 - 2012)  
+  - **Damien Roth** (2009 - 2012)  
 Co-supervision with Thomas Noël  
-Ph.D. Thesis: Mobility management in Wireless Sensor Networks  
+Ph.D. Thesis: [Mobility management of wireless sensor networks](https://theses.fr/2012STRAD031)  
 Funding: MESR grant
 
-- **Romain Kuntz** (2007 - 2010)  
+  - **Romain Kuntz** (2007 - 2010)  
 Co-supervision with Thomas Noël  
-Ph.D. Thesis: Medium Access Control Facing the Dynamics of Wireless Sensor Networks
+Ph.D. Thesis: [Medium access control facing the dynamics of wireless sensor networks](https://theses.fr/2010STRA6077)
+</details>
 
 ### Master 2 Internship
 
