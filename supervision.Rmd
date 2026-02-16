@@ -11,19 +11,29 @@ knitr::opts_chunk$set(echo = TRUE)
 
 ### PhD Students
 
-- **Ali Mustapha** (2024 - ...)  
-Co-supervision with Fabrice Théoleyre  
-Ph.D. Thesis: Inter-domain Monitoring and Predictions for Service Orchestration in 5G    
-Funding: Future Networks Priority Research Programme and Equipment (PEPR) 
+- **Florent Hardy** (2025 - ...)  
+Co-supervision with Jean-Romain Luttringer and Pascal Mérindol  
+Ph.D. Thesis: *Towards Eco-Efficient Autonomous Networks: Deep Programmability and Energy-Aware Routing Protocols*   
+Funding: ANR JCJC Garden
+
+- **Anjali Shaw** (2025 - ...)  
+Co-supervision with Thomas Bégin (LIP, Lyon) and Isabelle Guérin-Lassous (LIP, Lyon)   
+Ph.D. Thesis: *Multi-RAT and Multi-UPF Resource Allocation for Ultra-Reliable Low-Latency Communications in 5G and Beyond*  
+Funding: Future Networks Priority Research Programme and Equipment (PEPR), DONUTS project
+
+- **Ali Mustapha** (2024 - ...)   
+Co-supervision with Fabrice Théoleyre    
+Ph.D. Thesis: *Inter-domain Monitoring and Predictions for Service Orchestration in 5G*   
+Funding: Future Networks Priority Research Programme and Equipment (PEPR), NF-MUST project
 
 - **Thomas Le Tarnec** (2024 - ...)   
-Co-supervision with Georgios Papadopoulos, Guillaume Le Gall and Thomas Noël  
-Ph.D. Thesis: Programmable Wireless Protocol Stack  
+Co-supervision with Georgios Papadopoulos (IRISA), Guillaume Le Gall (IRISA) and Thomas Noël  
+Ph.D. Thesis: *Programmable Wireless Protocol Stack*   
 Funding: PERENNE ANR research project
 
-- **Ahmad Mahmod** (2023 - ...)  
-Co-supervision with Thomas Noël  
-Ph.D. Thesis: Software Defined Low-Power and Lossy Wireless Networks    
+- **Ahmad Mahmod** (2023 - ...)   
+Co-supervision with Thomas Noël   
+Ph.D. Thesis: *Software Defined Low-Power and Lossy Wireless Networks*  
 Funding: MESR grant
 
 - <details style="margin-bottom: 20px;"><summary><strong>Former PhD Students</strong></summary>
@@ -59,24 +69,35 @@ Ph.D. Thesis: [Medium access control facing the dynamics of wireless sensor netw
 
 ### Master 2 Internship
 
-- **Anna Beatriz De-Souza-Perotto** (2024)  
+- **Céleste Kerlogot** (2026)  
+Co-supervision with Jean-Romain Luttringer  
+Thesis: *Study of Gray-Failure in Computer Networks: Taxonomy and Data Generation*   
+Funding: ANR TURFU-NET research project
+
+- <details style="margin-bottom: 20px;"><summary><strong>Former Master Students</strong></summary>
+  - **Florent Hardy** (2025)  
+Co-supervision with Jean-Romain Luttringer  
+Thesis: *Profiling and Optimization of Energy Consumption in Programmable Networks*  
+Funding: ANR JCJC GARDEN
+
+  - **Anna Beatriz De-Souza-Perotto** (2024)  
 Co-supervision with Thomas Noël  
-Subject: Establishing a 5G-Enabled Connected Operating Room and Hospital-to-Home Patient Monitoring: Optimization of Latency and Handovers between Private and Public 5G Networks  
+Thesis: *Establishing a 5G-Enabled Connected Operating Room and Hospital-to-Home Patient Monitoring: Optimization of Latency and Handovers between Private and Public 5G Networks*  
 Funding: ITI Healthtech grant
 
-- **Simon Raul** (2022)  
+  - **Simon Raul** (2022)  
 Co-supervision with Cristel Pelsser and Thomas Noël  
-Subject: Anomaly detection in Internet of Things  
-Funding:
+Thesis: *Anomaly detection in Internet of Things*  
+Funding: Cisco Research project
 
-- **Brandon Foubert** (2018)  
-Subject: Cooperation between multiple RPL networks  
+  - **Brandon Foubert** (2018)  
+Thesis: *Cooperation between multiple RPL networks*  
 Funding: Grant from University
 
-- **Pierre Neumann** (2016)  
-Subject: Heterogeneous Internet of Things  
+  - **Pierre Neumann** (2016)  
+Thesis: *Heterogeneous Internet of Things*  
 Funding: LoRa CROFT project
 
-- **Quang Duy Nguyen** (2015)  
-Subject: Multihoming in the Internet of Things  
+  - **Quang Duy Nguyen** (2015)  
+Thesis: *Multihoming in the Internet of Things*  
 Funding: scholarship grant from IDEX Mobility Program - Master Internship of University of Strasbourg

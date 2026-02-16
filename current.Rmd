@@ -11,6 +11,16 @@ knitr::opts_chunk$set(echo = TRUE)
 
 <br>
 
+### DONUTS (2025 - 2029)
+
+**Design and Modeling of Multi-Scale and Multi-Technology Future Networks: From 5G/6G Cellular to Non-Terrestrial Networks**
+
+This project is part of the PEPR on Futur Networks and aims to design a space-air-ground continuum to ensure seamless connectivity and deterministic latency in mobile networks. It requires optimizing network functions and resources in response to dynamic conditions, including infrastructure mobility. A multi-scale digital twin will assess the impact of adaptation strategies, calibrated using real-world measurements and analytical models. As a member of the project, I'm focusing on how multipath connectivity, both at the edge (RAN) and within the core network, can be leveraged to meet stringent KPIs and to provide guaranteed performance metrics. The project budget is €2.4M for a duration of 56 months.
+
+More information on the [project web page](https://donuts-project.space)
+
+<br>
+
 ### TURFU-NET (2024 - 2028)
 
 **Transcending the Usual Rationale for the Future of Ubiquitous NETworks**

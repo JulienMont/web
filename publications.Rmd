@@ -13,6 +13,10 @@ knitr::opts_chunk$set(echo = TRUE)
 
 ## Sort by year
 
+### 2026
+
+- [PENSIL: Programmable network stack for low-power lossy IoT networks using lightweight-virtualization](https://doi.org/10.1016/j.iot.2025.101829) A. Mahmod, J. Montavont and T. Noël, *Elsevier Internet of Things*, Volume 35, January 2026
+
 ### 2025
 
 - [Programmable Solutions for Low-power and Lossy Wireless Networks: A Study of SDN and Femto Containers]() A. Mahmod, J. Montavont and T. Noël, in proceedings of the *39th International Conference on Advanced Information Networking and Applications (AINA)*, Barcelona, Spain, April 2025
@@ -153,7 +157,9 @@ knitr::opts_chunk$set(echo = TRUE)
 
 - [Gestion des déplacements de terminaux IPv6 mobiles assistée par géolocalisation](http://clarinet.icube.unistra.fr/~montavont/these-montavont.pdf), J. Montavont, *PhD Thesis*, Louis Pasteur University, Strasbourg, FRANCE, December 2006
 
-### Refereed International Journals (10)
+### Refereed International Journals (11)
+
+- [PENSIL: Programmable network stack for low-power lossy IoT networks using lightweight-virtualization](https://doi.org/10.1016/j.iot.2025.101829) A. Mahmod, J. Montavont and T. Noël, *Elsevier Internet of Things*, Volume 35, January 2026
 
 - [Enabling Centralized Scheduling Using Software Defined Networking in Industrial Wireless Sensor Networks](https://doi.org/10.1109/JIOT.2023.3302994) F. Veysi, J. Montavont and F. Théoleyre, in *IEEE Internet of Things Journal*, Volume 10, Issue 23, December 2023
 
