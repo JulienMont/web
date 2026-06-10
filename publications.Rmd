@@ -15,11 +15,15 @@ knitr::opts_chunk$set(echo = TRUE)
 
 ### 2026
 
-- [PENSIL: Programmable network stack for low-power lossy IoT networks using lightweight-virtualization](https://doi.org/10.1016/j.iot.2025.101829) A. Mahmod, J. Montavont and T. Noël, *Elsevier Internet of Things*, Volume 35, January 2026
+- [FINE-STACK: Flexible architecture for low-power lossy IoT Networks with programmablE network STACK and semantic runtime updates](https://doi.org/10.1016/j.adhoc.2026.104312), A. Mahmod, J. Montavont and T. Noël, *Elsevier Ad Hoc Networks*, in press, available online June 2026
+
+- [Divide and conquer: a semantic and modular reconfiguration of the network stack for constrained wireless networks](https://hal.science/hal-05597925/document), **Best Paper Award**, Ahmad Mahmod, J. Montavont, T. Noel, dans les actes du *colloque francophone sur la conception de protocoles, l’évaluation de performance et l’expérimentation des réseaux de communication (CoRes)*, Mandelieu-la-Napoule, France, June 2026
+
+- [PENSIL: Programmable network stack for low-power lossy IoT networks using lightweight-virtualization](https://doi.org/10.1016/j.iot.2025.101829), A. Mahmod, J. Montavont and T. Noël, *Elsevier Internet of Things*, Volume 35, January 2026
 
 ### 2025
 
-- [Programmable Solutions for Low-power and Lossy Wireless Networks: A Study of SDN and Femto Containers]() A. Mahmod, J. Montavont and T. Noël, in proceedings of the *39th International Conference on Advanced Information Networking and Applications (AINA)*, Barcelona, Spain, April 2025
+- [Programmable Solutions for Low-power and Lossy Wireless Networks: A Study of SDN and Femto Containers](https://doi.org/10.1007/978-3-031-87769-8_5), A. Mahmod, J. Montavont and T. Noël, in proceedings of the *39th International Conference on Advanced Information Networking and Applications (AINA)*, Barcelona, Spain, April 2025
 
 ### 2024
 
@@ -157,7 +161,9 @@ knitr::opts_chunk$set(echo = TRUE)
 
 - [Gestion des déplacements de terminaux IPv6 mobiles assistée par géolocalisation](http://clarinet.icube.unistra.fr/~montavont/these-montavont.pdf), J. Montavont, *PhD Thesis*, Louis Pasteur University, Strasbourg, FRANCE, December 2006
 
-### Refereed International Journals (11)
+### Refereed International Journals (12)
+
+- [FINE-STACK: Flexible architecture for low-power lossy IoT Networks with programmablE network STACK and semantic runtime updates](https://doi.org/10.1016/j.adhoc.2026.104312), A. Mahmod, J. Montavont and T. Noël, *Elsevier Ad Hoc Networks*, in press, available online June 2026
 
 - [PENSIL: Programmable network stack for low-power lossy IoT networks using lightweight-virtualization](https://doi.org/10.1016/j.iot.2025.101829) A. Mahmod, J. Montavont and T. Noël, *Elsevier Internet of Things*, Volume 35, January 2026
 
@@ -183,7 +189,7 @@ knitr::opts_chunk$set(echo = TRUE)
 
 ### Refereed International Conferences (25)
 
-- [Programmable Solutions for Low-power and Lossy Wireless Networks: A Study of SDN and Femto Containers]() A. Mahmod, J. Montavont and T. Noël, in proceedings of the *39th International Conference on Advanced Information Networking and Applications (AINA)*, Barcelona, Spain, April 2025
+- [Programmable Solutions for Low-power and Lossy Wireless Networks: A Study of SDN and Femto Containers](https://doi.org/10.1007/978-3-031-87769-8_5) A. Mahmod, J. Montavont and T. Noël, in proceedings of the *39th International Conference on Advanced Information Networking and Applications (AINA)*, Barcelona, Spain, April 2025
 
 - [Efficient and Reliable Maintenance for SDN-based Scheduled Wireless Networks]() F. Veysi, J. Montavont and F. Théoleyre, in proceedings of the *IEEE Consumer Communications & Networking Conference (CCNC)*, Las Vegas, United States, January 2024
 
@@ -233,7 +239,9 @@ knitr::opts_chunk$set(echo = TRUE)
 
 - [Enhanced schemes for L2 handover in IEEE 802.11 networks and their evaluations](http://dx.doi.org/10.1109/PIMRC.2005.1651681), J. Montavont, N. Montavont and T. Noël, in proceedings of the *IEEE International Symposium on Personal Indoor and Mobile Radio Communications (PIMRC)*, Berlin Germany, September 2005 
 
-### Refereed National Conferences (6)
+### Refereed National Conferences (7)
+
+- [Divide and conquer: a semantic and modular reconfiguration of the network stack for constrained wireless networks](https://hal.science/hal-05597925/document), Ahmad Mahmod, J. Montavont, T. Noel, dans les actes du *colloque francophone sur la conception de protocoles, l’évaluation de performance et l’expérimentation des réseaux de communication (CoRes)*, Mandelieu-la-Napoule, France, June 2026
 
 - [Menu ou à la carte ? Une architecture pour rendre programmable le plan de donnée des réseaux sans fil contraints](), A. Mahmod, J. Montavont, T. Noël, dans les actes du *colloque francophone sur la conception de protocoles, l’évaluation de performance et l’expérimentation des réseaux de communication (CoRes)*, Saint-Briac-sur-Mer, France, May 2024
 

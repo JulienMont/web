@@ -31,11 +31,11 @@ More information on the [project web page](https://turfu.icube.unistra.fr)
 
 <br>
 
-### PERENNE (2024 - 2027)
+### PERENNE (2024 - 2028)
 
 **Programmable wireless communication stack for sustainable deployments**
 
-Perenne is a collaborative research project between public entities at national level (PRC) funded by the French National Agency (ANR🇫🇷) in the 2023 generic call for proposals (AAPG) by the scientific evaluation panel (CES) 25. Perenne is certified by the competitive cluster Images & Réseaux. I'm the scientific coordinator of the project. The project has been granted a funding amount of k€632 over a period of 42 months.
+Perenne is a collaborative research project between public entities at national level (PRC) funded by the French National Agency (ANR🇫🇷) in the 2023 generic call for proposals (AAPG) by the scientific evaluation panel (CES) 25. Perenne is certified by the competitive cluster Images & Réseaux. I'm the scientific coordinator of the project. The project has been granted a funding amount of k€632 over a period of 48 months.
 
 More information on the [project web page](https://perenne.icube.unistra.fr)
 
